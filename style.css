@@ -39,3 +39,20 @@ body {
   outline: none;
   border: none;
 }
+
+.todo__item {
+  list-style-type: none;
+  padding: 1rem 1.2rem;
+  border-bottom: 2px solid #D49A3F;
+}
+
+.todo__item:hover {
+  cursor: default;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #aaa;
+  border-bottom: 2px solid rgb(65, 52, 32);
+  
+}

@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/4277093d13.js" crossorigin="anonymous"></script>
   <title>Todo-list App</title>
   <link rel="stylesheet" href="style.css">
   <script src="main.js" defer></script>
@@ -12,15 +13,26 @@
     <div class="container">
       <div class="todo">
         <div class="todo__header">
-          <h1 class="todo__title">To do list</h1>
+          <h1 class="todo__title">Daily To-do List</h1>
           <label for="todo input">
-            <input class="todo__input" type="text" placeholder="enter a todo">
+            <input class="todo__input" type="text" placeholder="Add a to-do">
           </label>
         </div>
         <div class="todo__body">
-          <li class="todo__item">Do your laundry</li>
-          <li class="todo__item">Create a video</li>
-          <li class="todo__item">Edit video content</li>
+          <ul class="todo__list">
+            <li class="todo__item">Do leetCode</li>
+            <li class="todo__item">Read the bible</li>
+            <li class="todo__item">Make a commit</li>
+          </ul>
+        </div>
+        <div class="todo__how">
+          Directions:
+          <ul class="todo__directions">
+            <li class="todo__direction">Click when completed</li>
+            <li class="todo__direction">Double click on the item to delete</li>
+          </ul>
+          
+          
         </div>
       </div>
     </div>

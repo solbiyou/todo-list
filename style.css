@@ -47,12 +47,29 @@ body {
 }
 
 .todo__item:hover {
-  cursor: default;
+  cursor: pointer;
 }
 
 .done {
   text-decoration: line-through;
   color: #aaa;
   border-bottom: 2px solid rgb(65, 52, 32);
-  
+
 }
+
+.todo__how {
+  padding: 4rem 1.2rem;
+  text-align: left;
+
+}
+
+.todo__directions {
+  list-style-type: none;
+  margin: 1rem 1.5rem;
+}
+
+.todo__direction {
+  margin-top: 0.5rem;
+}
+
+

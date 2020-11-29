@@ -30,6 +30,7 @@ body {
 .todo__title {
   margin: 1rem;
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 .todo__input {
